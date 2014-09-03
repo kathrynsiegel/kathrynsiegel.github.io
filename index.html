@@ -4,9 +4,9 @@
 	<link href='http://fonts.googleapis.com/css?family=Caudex|Merriweather' rel='stylesheet' type='text/css'>
 	<link href="bootstrap.min.css" rel="stylesheet">
 	<link href="bootstrap-theme.min.css" rel="stylesheet">	
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
 	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,67 +25,46 @@
 		<img src='me2.png' id='me-img'>
 	</div>
 	<div class='center-row'>
-		<div id='top-row'>
-			<h1 id='name'>Katie Siegel</h1>
-			<a href="resume.pdf"><i id="icon-resume-download" class="icon-download-alt"></i> <span id="label-resume">resume</span></a>
-		</div>
+		<h1 id='name'>Katie Siegel</h1>
 	</div>
-	<div class='center-row'>
-		<h4>
-			<a href="http://hackmit.org" class="ext-site-link">HackMIT</a> Director
-			<br><br>
-			MIT Class of 2016, Course 6-3 (Computer Science)
-		</h4>
+	<div class='row center-row icon-row'>
+		<a href="https://github.com/kathrynsiegel" id="github-link"><i class="fa fa-github-square button"></i></a>
+		<a href="https://www.facebook.com/katie.siegel.5" id="facebook-link"><i class="fa fa-facebook-square button"></i></a>
+		<a href="https://twitter.com/kt_seagull" id="twitter-link"><i class="fa fa-twitter-square button"></i></a>
+		<a href="resume.pdf"><i class="fa fa-file-text button"></i></a>
+		<a href="https://medium.com/@kt_seagull" id="medium-link"><i class="fa fa-pencil-square button"></i></a>
+			
 	</div>
 	<div class='row center-row'>
-			<a href="https://github.com/kathrynsiegel" id="github-link"><i class="icon-github-sign button"></i></a>
-			<a href="https://www.facebook.com/katie.siegel.5" id="facebook-link"><i class="icon-facebook-sign button"></i></a>
-			<a href="https://twitter.com/kt_seagull" id="twitter-link"><i class="icon-twitter-sign button"></i></a>
+		<div class="col-sm-6 col-sm-offset-3 description-me">
+			Hi! I'm a junior at MIT studying computer science with a focus in computer systems. I currently direct <a href="http://hackmit.org" class="ext-site-link">HackMIT</a> and TA a web software studio class. Previously, I interned at <a href="https://www.dropbox.com/">Dropbox</a> and <a href="https://squareup.com/">Square</a>.
+		</div>
 	</div>
+	
+	
 
 	<div class='row'>
-		<div class="col-sm-6 col-sm-offset-3">
-			<div class="academic_column column">
-				<h6>Internships</h6>
-				<a href="https://www.dropbox.com/">Dropbox</a> (Summer 2014)
-				<br> 
-				<a href="https://squareup.com/">Square</a> (Summer 2013)
-			</div>
-			<div class="org_column column">
-				<h6>TA Positions</h6>
-				6.170 Software Studio I (TA, F'14)
-				<br>
-				6.670 iOS Game Design and Development (TA, W'13)
-				<br>
-				6.042 Math for CS (LA, S'13)
-			</div>
-			<div class = "main-column column">
+		<div class="col-sm-8 col-sm-offset-2">
+			<div class = "org_column column">
 				<h6>Projects</h6>
-				<a href="http://nunchuckjs.com/">nunchuck.js</a> - Library for real-time hardware data synchronization between mobile and desktop browsers. Demos include 2-player Mario Kart and n-player plane battle game. 2nd place winner at <a href="http://ychacks.challengepost.com/">YCHacks '14</a>.
-				<br>  
+				<br>
+				<a href="http://nunchuckjs.com/">nunchuck.js</a> - Library for real-time hardware data synchronization between mobile and desktop browsers. Demos include 2-player Mario Kart and n-player plane battle game. 2nd place winner at <a href="http://ychacks.challengepost.com/">YCHacks '14</a>. Featured <a href="http://venturebeat.com/2014/09/02/now-you-can-turn-your-smartphone-into-a-controller-for-your-web-based-video-game/">in VentureBeat</a>.
+				<br><br>
 				<a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks/hacks/kobal-annotate-the-internet">Kobal</a> - Chrome extension that allows publicly sharing comments on text on the web and tipping with Bitcoin. Winner of A16Z's <a href="https://www.hackerleague.org/hackathons/battle-of-the-hacks">Battle of the Hacks</a>
-				<br>
+				<br><br>
 				<a href="http://hackprincetons2014.challengepost.com/submissions/22163-pokebble">Pokebble</a> - Pokemon for Pebble with online simulator displaying live results. Developed at <a href="http://hackprinceton.com/">HackPrinceton Spring '14</a>.
-				<br>
+				<br><br>
 				<a href="http://www.venmomoneymoproblems.com">VenMoMoneyMoProblems</a> - Venmo app for Pebble. Won Venmo API Prize at <a href='http://2014s.pennapps.com/'>PennApps Spring '14</a>.
-				<br>
+				<br><br>
 				<a href="http://pinhub.net/">PinHub</a> - "Pinterest for Developers" chrome extension; pin components and see corresponding code. Won Pinterest API prize at <a href="http://www.hacktech.io/">hackTECH</a>.
-				<br>
-				<a href="http://eduvote.herokuapp.com/">EDUvote</a> - "Clicker" replacement web app; facilitates student participation and organized lesson plans; uses Twilio API.
-				<br>
+				<br><br>
+				<a href="http://eduvote.herokuapp.com/">EDUvote</a> - "Clicker" replacement web app; facilitates student participation and organized lesson plans; uses Twilio API. Won first among 6.170 end-of-term projects.
+				<br><br>
 				<a href="http://reap.mit.edu/">MIT REAP Website</a> - Freelance webdev project for the MIT Trust Center.
-				<br>
-				<a href='https://github.com/kathrynsiegel/guichat'>GUIchat</a> - Chat client/server program written in Java.
-				<br>
+				<br><br>
+				<a href='https://github.com/kathrynsiegel/guichat'>GUIchat</a> - Chat client/server program written in Java. Won first among 6.005 end-of-term projects.
+				<br><br>
 				<a href="https://itunes.apple.com/us/app/space-breakers-fight-interstellar/id649608211?mt=8" class="resume-link">Space Breakers</a> - iPhone Game. Essentially Brickbreaker meets Space Invaders.
-			</div>
-			<div class="academic_column column">
-				<h6>Blog Posts</h6>
-				<a href="https://medium.com/hackmit-2014/joining-the-fancycat-club-hackmit-14-puzzle-guide-6f4ebef5b69">Joining the FancyCat Club: HackMIT '14 Puzzle Guide</a>
-				<br>
-				<a href="https://medium.com/hackers-and-hacking/f7efb084e8a">It's Not "Too Late" for Female Hackers</a>
-				<br>
-				<a href="https://medium.com/hackers-and-hacking/96467ee9a9b8">What is it like to organize HackMIT?</a>
 			</div>
 		</div>
 		

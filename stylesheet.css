@@ -81,10 +81,6 @@ a:hover {
 	text-align: center;
 }
 
-#top-row {
-	display:inline-flex;
-	margin-left:80px;
-}
 #top-row a {
 	color:black !important;
 	padding: 15px 10px 10px 10px;
@@ -105,11 +101,19 @@ a:hover {
 	display: inline-block;
 	font-size: 14px;
 }
+.icon-row {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#description-row {
+
+}
 
 .button {
 	margin-left:10px;
 	margin-right:10px;
-	font-size:30px;
+	font-size:25px;
 }
 #github-link:hover {
 	color: rgb(138,209,238) !important;
@@ -119,6 +123,9 @@ a:hover {
 }
 #twitter-link:hover {
 	color: #33CCFF !important;
+}
+#medium-link:hover {
+	color: #ccc !important;
 }
 #contact_buttons a {
 	color:black;
@@ -138,16 +145,12 @@ a:hover {
 	transform: scale(1.0);
 }
 
-
-
 .header-buttons-labels {
 	display:inline;
 	width:150px;
 	text-align:left;
 	height:30px;
 }
-
-
 
 .button-word {
 	-webkit-transform: scale(0.0, 1.0);
@@ -166,9 +169,9 @@ a:hover {
 
 .column {
 	border-radius:4px;
-	border:1px solid rgba(0,0,0,0.15);
-	margin: 10px;
-	padding:10px;
+	border:1px solid rgba(0,0,0,0.45);
+	margin: 20px;
+	padding:25px;
 	-webkit-transition-duration: 0.4s;
 	-webkit-transition-property: border-color, background-color;
 	-moz-transition-duration: 0.4s;
@@ -208,4 +211,8 @@ a:hover {
 	-moz-transition-property: border-color, background-color;
 	transition-duration: 0.4s;
 	transition-property: border-color, background-color;
+}
+
+.description-me {
+	font-size:16px;
 }
