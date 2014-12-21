@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href='http://fonts.googleapis.com/css?family=Caudex|Merriweather' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link href="bootstrap.min.css" rel="stylesheet">
 	<link href="bootstrap-theme.min.css" rel="stylesheet">	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
@@ -21,31 +21,42 @@
 	<title>Katie Siegel</title>
 </head>
 <body>
-	<div class='center-row'>
-		<img src='background2.jpg' id='me-img'>
-	</div>
-	<div class='center-row'>
-		<h1 id='name'>Katie Siegel</h1>
-	</div>
-	<div class='row center-row icon-row'>
-		<a href="https://github.com/kathrynsiegel" id="github-link"><i class="fa fa-github-square button"></i></a>
-		<a href="https://www.facebook.com/katie.siegel.5" id="facebook-link"><i class="fa fa-facebook-square button"></i></a>
-		<a href="https://twitter.com/kt_seagull" id="twitter-link"><i class="fa fa-twitter-square button"></i></a>
-		<a href="resume.pdf"><i class="fa fa-file-text button"></i></a>
-		<a href="https://medium.com/@kt_seagull" id="medium-link"><i class="fa fa-pencil-square button"></i></a>
-			
-	</div>
-	<div class='row center-row'>
-		<div class="col-sm-6 col-sm-offset-3 description-me">
-			Hi! I'm a junior at MIT studying computer science with a focus in computer systems. I currently direct <a href="http://hackmit.org" class="ext-site-link">HackMIT</a> and TA a web software studio class. Previously, I interned at <a href="https://www.dropbox.com/">Dropbox</a> and <a href="https://squareup.com/">Square</a>.
-		</div>
-	</div>
-	
-	
-
 	<div class='row'>
 		<div class="col-sm-8 col-sm-offset-2">
-			<div class = "org_column column">
+			<div id="bg">
+				<img src="background2.jpg" id="background-img" alt="">
+			</div>
+			<div id="desc">
+				<div class="col-sm-5 col-sm-offset-6 white-block">
+					<h1 id='name'>Katie Siegel</h1>
+					<br>
+					<p>
+						Hi! I'm a junior at MIT studying computer science with a focus in computer systems. 
+					</p>
+					<p>
+						I currently direct <a href="http://hackmit.org" class="ext-site-link">HackMIT</a> and TA a web software studio class. 
+					</p>
+					<p>
+						Previously, I interned at <a href="https://www.dropbox.com/">Dropbox</a> and <a href="https://squareup.com/">Square</a>. <br>Next summer, I will be at <a href="http://www.memsql.com/">MemSQL</a>.
+					</p>
+					<div class='row center-row icon-row'>
+						<a href="https://medium.com/@kt_seagull" id="medium-link">
+							<img src="medium.png" id="medium-link">
+						</a>
+						<a href="https://github.com/kathrynsiegel" id="github-link"><i class="fa fa-github-square button"></i></a>
+						<a href="https://twitter.com/kt_seagull" id="twitter-link"><i class="fa fa-twitter-square button"></i></a>
+						<a href="resume.pdf"><i id="resume-link" class="fa fa-file-text button"></i></a>
+							
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+	<div class='row'>
+		<div class="col-sm-6 col-sm-offset-3">
+			<div class = "column">
 				<h6>Projects</h6>
 				<br>
 				<a href="http://nunchuckjs.com/">nunchuck.js</a> - Library for real-time hardware data synchronization between mobile and desktop browsers. Demos include 2-player Mario Kart and n-player plane battle game. 2nd place winner at <a href="http://ychacks.challengepost.com/">YCHacks '14</a>. Featured <a href="http://venturebeat.com/2014/09/02/now-you-can-turn-your-smartphone-into-a-controller-for-your-web-based-video-game/">in VentureBeat</a>.

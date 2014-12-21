@@ -31,27 +31,51 @@
 
 body, html {
 	height:100%;
-	font-family: 'Caudex', serif;
-	background:linear-gradient(#eee,#ccc);
-	background-attachment:fixed;
+	font-family: 'Lato', sans-serif;
+	/*background:linear-gradient(#eee,#ccc);
+	background-attachment:fixed;*/
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Merriweather', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
-#bg {
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  z-index: -1;
-	
-  /* Preserve aspet ratio */
-  min-width: 100%;
-  min-height: 100%;
+#bg {	
+  /* Preserve aspect ratio */
+  position:relative;
+  margin:auto;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+#background-img {
+	max-width:100%;
+	position: relative;
+	margin:5px;
+}
+
+#desc {
+	position:absolute;
+	top:23%;
+	width:100%;
+	text-align: center;
+}
+
+.white-block {
+	background-color:rgba(256, 256, 256, 0.6);
+	padding:20px 10px 5px 10px;
+}
+
+#medium-link {
+	height: 22px;
+	margin: -5px 5px 5px 5px;
+}
+
+#medium-link:hover {
+	opacity: 0.4;
+    filter: alpha(opacity=40);
 }
 
 h1 {
@@ -119,8 +143,8 @@ a:hover {
 	font-size: 14px;
 }
 .icon-row {
-	margin-top:10px;
-	margin-bottom:10px;
+	margin-top:25px;
+	margin-bottom:20px;
 }
 
 #description-row {
@@ -133,13 +157,16 @@ a:hover {
 	font-size:25px;
 }
 #github-link:hover {
-	color: rgb(138,209,238) !important;
+	opacity: 0.4;
+}
+#resume-link:hover {
+	opacity:0.4;
 }
 #facebook-link:hover {
 	color: #3B5998 !important;
 }
 #twitter-link:hover {
-	color: #33CCFF !important;
+	opacity: 0.4;
 }
 #medium-link:hover {
 	color: #ccc !important;
@@ -151,16 +178,7 @@ a:hover {
 	-moz-transition: color 0.4s;
 	transition: color 0.4s;
 }
-#contact_buttons a:hover {
-	-webkit-transition: color 0.4s;
-	-moz-transition: color 0.4s;
-	transition: color 0.4s;
-}
-#icon-resume-download:hover + #label-resume {
-	-webkit-transform: scale(1.0);
-	-moz-transform: scale(1.0);
-	transform: scale(1.0);
-}
+
 
 .header-buttons-labels {
 	display:inline;
@@ -185,8 +203,8 @@ a:hover {
 }
 
 .column {
-	border-radius:4px;
-	border:1px solid rgba(0,0,0,0.45);
+	/*border-radius:4px;*/
+	/*border:1px solid rgba(0,0,0,0.45);*/
 	margin: 20px;
 	padding:25px;
 	-webkit-transition-duration: 0.4s;
