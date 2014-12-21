@@ -28,12 +28,6 @@
 	}
 }
 
-@media all and (max-width: 900) {
-	#desc {
-		top:0px !important;
-	}
-}
-
 body, html {
 	height:100%;
 	font-family: 'Lato', sans-serif;
@@ -58,7 +52,6 @@ h1, h2, h3, h4, h5, h6 {
 #background-img {
 	max-width:100%;
 	position: relative;
-	margin:5px;
 }
 
 #desc {
@@ -99,17 +92,18 @@ h5 {
 h6 {
 	font-weight: bold;
 	text-transform:uppercase;
-	font-size:12px;
+	font-size:14px;
 	letter-spacing:.2em;
 }
 
 a {
 	text-decoration: none !important;
-	color:black !important;
+	color: #8e44ad !important;
 	font-weight: bolder;
 }
 a:hover {
 	color:gray !important;
+	text-decoration: none !important;
 }
 
 #me-img {
@@ -152,8 +146,8 @@ a:hover {
 	margin-bottom:20px;
 }
 
-#description-row {
-
+i.icon {
+	color: black !important;
 }
 
 .button {
