@@ -40,6 +40,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Merriweather', sans-serif;
 }
 
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: -1;
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 h1 {
 	font-size: 30px;
 	margin-bottom:0px;
