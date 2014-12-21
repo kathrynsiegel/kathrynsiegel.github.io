@@ -28,6 +28,11 @@
 	}
 }
 
+@media all and (max-width: 900) {
+	#desc {
+		top:0px !important;
+	}
+}
 
 body, html {
 	height:100%;
