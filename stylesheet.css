@@ -48,9 +48,10 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	h1 {
-		padding-top:5px;
+		padding-top:-5px;
 		padding-bottom:5px;
 		margin-bottom:0px !important;
+		margin-top: 5px !important;
 	}
 
 	.icon-row {
@@ -66,14 +67,9 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-
-#desc {
-	
-}
-
 .white-block {
-	background-color:rgba(256, 256, 256, 0.6);
-	padding:20px 10px 5px 10px;
+	background-color:rgba(256, 256, 256, 0.65);
+	padding:10px 10px 5px 10px;
 }
 
 #medium-link {
