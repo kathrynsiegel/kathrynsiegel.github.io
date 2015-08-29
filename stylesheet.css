@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
   filter: grayscale(100%);*/
 }
 
+.baking {
+  min-width:100%;
+}
+
 #background-img {
 	max-width:100%;
 	position: relative;
@@ -72,12 +76,12 @@ h1, h2, h3, h4, h5, h6 {
 	padding:10px 10px 5px 10px;
 }
 
-#medium-link {
+#medium-link, #baking-link {
 	height: 22px;
 	margin: -5px 5px 5px 5px;
 }
 
-#medium-link:hover {
+#medium-link:hover, #baking-link:hover {
 	opacity: 0.4;
     filter: alpha(opacity=40);
 }
