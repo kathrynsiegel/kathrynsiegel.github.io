@@ -173,6 +173,9 @@ i.icon {
 #resume-link:hover {
 	opacity:0.4;
 }
+#email-link:hover {
+  opacity:0.4;
+}
 #facebook-link:hover {
 	color: #3B5998 !important;
 }
